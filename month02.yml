@@ -1,0 +1,739 @@
+month:
+  number: 2
+  name: "Speak Naturally"
+  days: 31-65
+  editorial_promise: "Learn to express yourself in natural everyday English instead of translating from Italian."
+  progression:
+    primary: "A2+"
+    target: "B1"
+    stretch: "B1+"
+
+article_cards:
+
+  # ============================================================
+  # WEEK 6 — STOP TRANSLATING
+  # ============================================================
+
+  - id: "m02-d31"
+    day: 31
+    month: 2
+    week: 6
+    pillar: "Stop Translating"
+    cluster: "stop-translating"
+    title: "Stop Translating: Start Thinking in English"
+    content_type: "natural_english"
+    content_role: "attract"
+    level:
+      primary: "A2+"
+      target: "B1"
+      stretch: "B1+"
+    communicative_goal:
+      - "Understand why word-for-word translation creates unnatural English."
+      - "Recognize common Italian-to-English patterns."
+      - "Start choosing English expressions as complete chunks."
+    situation:
+      - "everyday conversation"
+      - "thinking before speaking"
+    language_focus:
+      vocabulary:
+        - "sentence"
+        - "expression"
+        - "meaning"
+        - "translation"
+        - "phrase"
+        - "word"
+        - "context"
+      expressions:
+        - "It depends."
+        - "I'm not sure."
+        - "I have no idea."
+        - "I'm looking for..."
+        - "I'm used to..."
+        - "I'm on my way."
+      phrasal_verbs:
+        - "figure_out"
+        - "come_up_with"
+      collocations:
+        - "translate word for word"
+        - "sound natural"
+        - "express an idea"
+        - "learn a phrase"
+        - "use English naturally"
+      grammar:
+        - "English sentence patterns"
+        - "chunks rather than isolated words"
+    natural_english:
+      textbook:
+        - "Translate each Italian word into English."
+        - "Build the sentence word by word."
+      real:
+        - "Learn useful expressions as complete units."
+        - "Choose the English expression that matches the situation."
+    common_italian_mistakes:
+      - "word-for-word translation"
+      - "using Italian sentence structure in English"
+      - "choosing a grammatically possible but unnatural expression"
+    dialogue:
+      included: true
+      type: "teacher_student"
+      focus: "The difference between translating and thinking in English"
+      target_length: "130-170 words"
+    related_articles:
+      primary:
+        - "m02-d32"
+        - "m02-d33"
+      same_week:
+        - "m02-d34"
+        - "m02-d35"
+      cross_cluster:
+        - "m02-d45"
+        - "m02-d49"
+      pillar:
+        - "m02-d37"
+    seo:
+      primary_keyword: "stop translating and think in English"
+      secondary_keywords:
+        - "how to think in English"
+        - "stop translating Italian into English"
+        - "learn natural English"
+        - "think in English"
+        - "English without translating"
+      search_intent: "informational"
+      slug: "stop-translating-think-in-english"
+      meta_title: "Stop Translating: How to Start Thinking in English"
+      meta_description: "Learn why translating from Italian makes English sound unnatural and how to start thinking in natural English."
+    pinterest:
+      potential: "very_high"
+      minimum_pins: 3
+      recommended_pins: 10
+      maximum_pins: null
+      templates:
+        - "pain_point"
+        - "textbook_vs_real"
+        - "search"
+        - "before_after"
+        - "daily_lesson"
+        - "saveable"
+    babbel:
+      cta_type: "soft"
+
+  - id: "m02-d32"
+    day: 32
+    month: 2
+    week: 6
+    pillar: "Stop Translating"
+    cluster: "stop-translating"
+    title: "How to Say “Ho 30 Anni” in Natural English"
+    content_type: "natural_english"
+    content_role: "attract"
+    level:
+      primary: "A2"
+      target: "A2+"
+      stretch: "B1"
+    communicative_goal:
+      - "Talk about age naturally."
+      - "Avoid translating Italian structures literally."
+      - "Recognize common patterns involving age."
+    situation:
+      - "introductions"
+      - "meeting people"
+      - "small talk"
+    language_focus:
+      vocabulary:
+        - "age"
+        - "years old"
+        - "young"
+        - "older"
+        - "same age"
+      expressions:
+        - "I'm 30."
+        - "I'm 30 years old."
+        - "How old are you?"
+        - "We're about the same age."
+        - "She's a couple of years older than me."
+      phrasal_verbs:
+        - "grow_up"
+      collocations:
+        - "be 30"
+        - "be the same age"
+        - "a couple of years older"
+      grammar:
+        - "be + age"
+        - "How old...?"
+        - "comparatives with older/younger"
+    natural_english:
+      textbook:
+        - "I have 30 years."
+      real:
+        - "I'm 30."
+        - "I'm 30 years old."
+    common_italian_mistakes:
+      - "I have 30 years."
+      - "How many years do you have?"
+      - "I have 30 years old."
+    dialogue:
+      included: true
+      type: "meeting_people"
+      target_length: "100-130 words"
+    related_articles:
+      primary:
+        - "m02-d31"
+        - "m02-d33"
+      same_week:
+        - "m02-d34"
+        - "m02-d35"
+      cross_cluster:
+        - "m02-d38"
+      pillar:
+        - "m02-d37"
+    seo:
+      primary_keyword: "how to say your age in English"
+      secondary_keywords:
+        - "I am 30 years old English"
+        - "I have 30 years English"
+        - "how to talk about age in English"
+      search_intent: "informational"
+      slug: "how-to-say-your-age-in-english"
+      meta_title: "How to Say Your Age in English Naturally"
+      meta_description: "Learn how native speakers talk about age and avoid the common Italian mistake 'I have 30 years'."
+    pinterest:
+      potential: "high"
+      minimum_pins: 3
+      recommended_pins: 6
+      maximum_pins: null
+      templates:
+        - "textbook_vs_real"
+        - "mistake"
+        - "search"
+        - "daily_lesson"
+    babbel:
+      cta_type: "soft"
+
+  - id: "m02-d33"
+    day: 33
+    month: 2
+    week: 6
+    pillar: "Stop Translating"
+    cluster: "stop-translating"
+    title: "How to Say “Mi Piace” Without Always Saying “I Like”"
+    content_type: "natural_english"
+    content_role: "educate"
+    level:
+      primary: "A2+"
+      target: "B1"
+      stretch: "B1+"
+    communicative_goal:
+      - "Express preferences with more variety."
+      - "Choose expressions according to intensity and context."
+    situation:
+      - "talking about hobbies"
+      - "food"
+      - "music"
+      - "free time"
+    language_focus:
+      vocabulary:
+        - "like"
+        - "enjoy"
+        - "fan"
+        - "interest"
+        - "hobby"
+        - "preference"
+      expressions:
+        - "I like..."
+        - "I'm into..."
+        - "I really enjoy..."
+        - "I'm a big fan of..."
+        - "I quite like..."
+        - "I'm really into..."
+        - "It's not really my thing."
+      phrasal_verbs:
+        - "be_into"
+      collocations:
+        - "be into music"
+        - "enjoy doing something"
+        - "be a big fan of"
+        - "not be my thing"
+      grammar:
+        - "like + noun"
+        - "like/enjoy + -ing"
+        - "be into + noun/-ing"
+    natural_english:
+      textbook:
+        - "I like very much this music."
+        - "I like to make sport."
+      real:
+        - "I'm really into this music."
+        - "I really enjoy working out."
+        - "It's totally my thing."
+    common_italian_mistakes:
+      - "I like very much..."
+      - "I like to do sport."
+      - "I'm interested to..."
+    dialogue:
+      included: true
+      type: "friends"
+      target_length: "120-150 words"
+    related_articles:
+      primary:
+        - "m02-d31"
+        - "m02-d35"
+      same_week:
+        - "m02-d34"
+        - "m02-d36"
+      cross_cluster:
+        - "m02-d48"
+      pillar:
+        - "m02-d37"
+    seo:
+      primary_keyword: "ways to say I like in English"
+      secondary_keywords:
+        - "natural English expressions for likes"
+        - "I'm into meaning"
+        - "I really enjoy English"
+        - "how to express preferences in English"
+      search_intent: "informational"
+      slug: "ways-to-say-i-like-in-english"
+      meta_title: "How to Say I Like It in Natural English"
+      meta_description: "Stop repeating I like. Learn natural English expressions such as I'm into, I really enjoy and I'm a big fan of."
+    pinterest:
+      potential: "very_high"
+      minimum_pins: 3
+      recommended_pins: 8
+      maximum_pins: null
+      templates:
+        - "list"
+        - "before_after"
+        - "textbook_vs_real"
+        - "saveable"
+        - "vocabulary"
+    babbel:
+      cta_type: "contextual"
+
+  - id: "m02-d34"
+    day: 34
+    month: 2
+    week: 6
+    pillar: "Stop Translating"
+    cluster: "stop-translating"
+    title: "How to Say “Dipende” in Natural English"
+    content_type: "expressions"
+    content_role: "attract"
+    level:
+      primary: "A2+"
+      target: "B1"
+      stretch: "B1+"
+    communicative_goal:
+      - "Use depends naturally."
+      - "Add conditions and explanations."
+      - "Avoid translating Italian structures literally."
+    situation:
+      - "everyday conversation"
+      - "opinions"
+      - "decision making"
+    language_focus:
+      vocabulary:
+        - "depend"
+        - "situation"
+        - "choice"
+        - "condition"
+        - "usually"
+      expressions:
+        - "It depends."
+        - "That depends."
+        - "It depends on..."
+        - "It really depends."
+        - "It depends on the situation."
+        - "That depends on what you mean."
+      phrasal_verbs:
+        - "depend_on"
+      collocations:
+        - "depend on the situation"
+        - "depend on the price"
+        - "depend on what happens"
+      grammar:
+        - "depend on + noun"
+        - "depend on + question clause"
+    natural_english:
+      textbook:
+        - "It is dependent from..."
+      real:
+        - "It depends on..."
+        - "It really depends."
+    common_italian_mistakes:
+      - "It depends from..."
+      - "It depends by..."
+      - "It is dependent from..."
+    dialogue:
+      included: true
+      type: "everyday_conversation"
+      target_length: "100-140 words"
+    related_articles:
+      primary:
+        - "m02-d33"
+        - "m02-d35"
+      same_week:
+        - "m02-d36"
+      cross_cluster:
+        - "m02-d41"
+        - "m02-d46"
+      pillar:
+        - "m02-d37"
+    seo:
+      primary_keyword: "how to say it depends in English"
+      secondary_keywords:
+        - "it depends English"
+        - "depend on English"
+        - "natural English expressions"
+      search_intent: "informational"
+      slug: "how-to-say-it-depends-in-english"
+      meta_title: "How to Say 'Dipende' in English: Natural Expressions"
+      meta_description: "Learn how to use It depends, It depends on and other natural ways to express uncertainty in English."
+    pinterest:
+      potential: "high"
+      minimum_pins: 3
+      recommended_pins: 6
+      maximum_pins: null
+      templates:
+        - "textbook_vs_real"
+        - "search"
+        - "daily_lesson"
+        - "cheat_sheet"
+    babbel:
+      cta_type: "soft"
+
+  - id: "m02-d35"
+    day: 35
+    month: 2
+    week: 6
+    pillar: "Stop Translating"
+    cluster: "stop-translating"
+    title: "How to Say “Non Lo So” Without Sounding Stiff"
+    content_type: "expressions"
+    content_role: "educate"
+    level:
+      primary: "A2+"
+      target: "B1"
+      stretch: "B1+"
+    communicative_goal:
+      - "Express uncertainty naturally."
+      - "Distinguish I don't know from softer alternatives."
+    situation:
+      - "everyday conversation"
+      - "answering questions"
+      - "uncertainty"
+    language_focus:
+      vocabulary:
+        - "sure"
+        - "idea"
+        - "guess"
+        - "answer"
+        - "probably"
+      expressions:
+        - "I don't know."
+        - "I'm not sure."
+        - "I have no idea."
+        - "I'm not really sure."
+        - "I'm not sure about that."
+        - "I couldn't tell you."
+      phrasal_verbs:
+        - "figure_out"
+      collocations:
+        - "have no idea"
+        - "be sure about"
+        - "know the answer"
+      grammar:
+        - "present simple"
+        - "couldn't + verb"
+        - "I'm not sure + clause"
+    natural_english:
+      textbook:
+        - "I don't know the answer."
+      real:
+        - "I'm not sure."
+        - "I have no idea."
+        - "I couldn't tell you."
+    common_italian_mistakes:
+      - "I don't know nothing."
+      - "I'm not sure about it what..."
+      - "I have no idea about where..."
+    dialogue:
+      included: true
+      type: "casual_conversation"
+      target_length: "110-140 words"
+    related_articles:
+      primary:
+        - "m02-d34"
+        - "m02-d46"
+      same_week:
+        - "m02-d33"
+        - "m02-d36"
+      cross_cluster:
+        - "m02-d40"
+        - "m02-d42"
+      pillar:
+        - "m02-d37"
+    seo:
+      primary_keyword: "ways to say I don't know in English"
+      secondary_keywords:
+        - "I'm not sure English"
+        - "I have no idea English"
+        - "natural ways to say I don't know"
+      search_intent: "informational"
+      slug: "ways-to-say-i-dont-know-in-english"
+      meta_title: "How to Say I Don't Know Naturally in English"
+      meta_description: "Learn natural alternatives to I don't know, from I'm not sure to I have no idea."
+    pinterest:
+      potential: "high"
+      minimum_pins: 3
+      recommended_pins: 7
+      maximum_pins: null
+      templates:
+        - "list"
+        - "textbook_vs_real"
+        - "saveable"
+        - "daily_lesson"
+    babbel:
+      cta_type: "soft"
+
+  - id: "m02-d36"
+    day: 36
+    month: 2
+    week: 6
+    pillar: "Stop Translating"
+    cluster: "stop-translating"
+    title: "Italian-to-English Sentences You Should Stop Translating"
+    content_type: "mistakes"
+    content_role: "attract"
+    level:
+      primary: "A2+"
+      target: "B1"
+      stretch: "B1+"
+    communicative_goal:
+      - "Identify high-frequency Italianisms."
+      - "Replace literal translations with natural English."
+    situation:
+      - "everyday English"
+      - "speaking"
+    language_focus:
+      vocabulary:
+        - "mistake"
+        - "translation"
+        - "pattern"
+        - "sentence"
+        - "expression"
+      expressions:
+        - "I'm hungry."
+        - "I'm cold."
+        - "I'm 30."
+        - "It depends on..."
+        - "I'm looking for..."
+        - "I'm on my way."
+        - "I agree."
+      phrasal_verbs:
+        - "look_for"
+        - "find_out"
+      collocations:
+        - "make a mistake"
+        - "translate literally"
+        - "sound natural"
+    natural_english:
+      textbook:
+        - "Literal Italian-to-English translations."
+      real:
+        - "Common native English equivalents."
+    common_italian_mistakes:
+      - "I have hunger."
+      - "I have cold."
+      - "I search for..."
+      - "I am agree."
+      - "I have 30 years."
+    dialogue:
+      included: true
+      type: "before_after"
+      target_length: "130-170 words"
+    related_articles:
+      primary:
+        - "m02-d31"
+        - "m02-d33"
+      same_week:
+        - "m02-d34"
+        - "m02-d35"
+      cross_cluster:
+        - "m02-d45"
+        - "m02-d50"
+      pillar:
+        - "m02-d37"
+    seo:
+      primary_keyword: "Italian mistakes in English translation"
+      secondary_keywords:
+        - "Italianisms in English"
+        - "common English mistakes Italians make"
+        - "Italian to English mistakes"
+        - "natural English for Italians"
+      search_intent: "informational"
+      slug: "italian-english-mistakes-stop-translating"
+      meta_title: "25 Italian-to-English Mistakes You Should Stop Translating"
+      meta_description: "Discover common Italian-to-English translations that sound unnatural and learn what native speakers actually say."
+    pinterest:
+      potential: "very_high"
+      minimum_pins: 3
+      recommended_pins: 10
+      maximum_pins: null
+      templates:
+        - "textbook_vs_real"
+        - "before_after"
+        - "list"
+        - "mistake"
+        - "saveable"
+        - "infographic"
+    babbel:
+      cta_type: "contextual"
+
+  - id: "m02-d37"
+    day: 37
+    month: 2
+    week: 6
+    pillar: "Stop Translating"
+    cluster: "stop-translating"
+    title: "Stop Translating — 50 Italian Sentences That Sound Different in Natural English"
+    content_type: "weekly_pillar"
+    content_role: "retain"
+    level:
+      primary: "A2+"
+      target: "B1"
+      stretch: "B1+"
+    communicative_goal:
+      - "Review the week's most important natural patterns."
+      - "Recognize Italianisms."
+      - "Build a practical reference library."
+    situation:
+      - "everyday English"
+    language_focus:
+      vocabulary:
+        - "translation"
+        - "mistake"
+        - "pattern"
+        - "chunk"
+        - "expression"
+      expressions:
+        - "It depends."
+        - "I'm on my way."
+        - "I'm looking for..."
+        - "I'm not sure."
+        - "I'm into..."
+      phrasal_verbs:
+        - "look_for"
+        - "figure_out"
+      collocations:
+        - "sound natural"
+        - "translate literally"
+        - "make a mistake"
+        - "learn by context"
+      grammar:
+        - "high-frequency sentence patterns"
+    natural_english:
+      textbook:
+        - "Italian sentence translated word for word."
+      real:
+        - "Natural English equivalent."
+    common_italian_mistakes:
+      - "literal translation"
+      - "Italian word order"
+      - "incorrect prepositions"
+      - "false friends"
+    dialogue:
+      included: true
+      type: "master_dialogue"
+      target_length: "160-200 words"
+    related_articles:
+      primary:
+        - "m02-d31"
+        - "m02-d36"
+      same_week:
+        - "m02-d32"
+        - "m02-d33"
+        - "m02-d35"
+      cross_cluster:
+        - "m02-d45"
+        - "m02-d50"
+      pillar:
+        - "m02-d44"
+      next_step:
+        - "m02-d38"
+    seo:
+      primary_keyword: "Italian mistakes in English"
+      secondary_keywords:
+        - "English mistakes Italians make"
+        - "natural English vs Italian translation"
+        - "common Italianisms in English"
+      search_intent: "informational"
+      slug: "italian-mistakes-in-english"
+      meta_title: "50 Italian-to-English Mistakes to Stop Making"
+      meta_description: "A practical guide to 50 Italian sentences that sound different in natural English."
+    pinterest:
+      potential: "very_high"
+      minimum_pins: 3
+      recommended_pins: 12
+      maximum_pins: null
+      templates:
+        - "ultimate_guide"
+        - "textbook_vs_real"
+        - "list"
+        - "saveable"
+        - "cheat_sheet"
+        - "infographic"
+    babbel:
+      cta_type: "contextual"
+
+
+  # ============================================================
+  # WEEK 7 — NATURAL QUESTIONS
+  # ============================================================
+
+  - id: "m02-d38"
+    day: 38
+    month: 2
+    week: 7
+    pillar: "Natural Questions"
+    cluster: "natural-questions"
+    title: "How Are You? — Natural Alternatives to “How Are You?”"
+    content_type: "expressions"
+    content_role: "attract"
+    level:
+      primary: "A2+"
+      target: "B1"
+      stretch: "B1+"
+    communicative_goal:
+      - "Start conversations naturally."
+      - "Understand different levels of informality."
+    situation:
+      - "greetings"
+      - "small talk"
+    language_focus:
+      vocabulary:
+        - "fine"
+        - "great"
+        - "busy"
+        - "alright"
+        - "good"
+      expressions:
+        - "How's it going?"
+        - "How have you been?"
+        - "How are things?"
+        - "How's everything?"
+        - "You alright?"
+        - "What's new?"
+      phrasal_verbs:
+        - "catch_up"
+      collocations:
+        - "start a conversation"
+        - "catch up with someone"
+        - "have a quick chat"
+    natural_english:
+      textbook:
+        - "How are you?"
+      real:
+        - "How's it going?"
+        - "How have you been?"
+        - "How are things?"
+    common_
