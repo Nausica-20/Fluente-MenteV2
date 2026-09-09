@@ -634,3 +634,606 @@ articles:
       same_week:
         - day: 17
       
+
+
+version: "1.0"
+project: "fluente-mente"
+month: 2
+file: "related_articles.yml"
+
+rules:
+  primary_max: 2
+  same_week_max: 3
+  cross_cluster_max: 3
+  pillar_max: 4
+  next_step_max: 1
+  no_orphans: true
+  reciprocal_links: true
+  prioritize_language_reuse: true
+
+articles:
+
+  # ==========================================================
+  # WEEK 6 — STOP TRANSLATING
+  # ==========================================================
+
+  - day: 31
+    title: "Stop Translating: Start Thinking in English"
+    related_articles:
+      primary:
+        - day: 32
+          relationship: "same_cluster"
+          anchor: "How to Say Your Age in Natural English"
+        - day: 36
+          relationship: "italian_to_english"
+          anchor: "Italian-to-English Sentences You Should Stop Translating"
+      same_week:
+        - day: 33
+          relationship: "natural_expression"
+          anchor: "How to Say I Like in Natural English"
+        - day: 34
+          relationship: "natural_expression"
+          anchor: "How to Say It Depends in English"
+        - day: 35
+          relationship: "natural_expression"
+          anchor: "Natural Ways to Say I Don't Know"
+      cross_cluster:
+        - day: 45
+          relationship: "sentence_upgrade"
+          anchor: "Stop Saying It Is All the Time"
+        - day: 49
+          relationship: "register"
+          anchor: "How to Sound Less Formal in Everyday English"
+        - day: 59
+          relationship: "conversation_application"
+          anchor: "How to Start a Conversation Naturally"
+      pillar:
+        - day: 37
+          relationship: "weekly_pillar"
+          anchor: "Stop Translating — 50 Italian Sentences That Sound Different in Natural English"
+      next_step:
+        - day: 32
+          relationship: "next_day"
+          anchor: "How to Say Your Age in Natural English"
+
+  - day: 32
+    title: "How to Say “Ho 30 Anni” in Natural English"
+    related_articles:
+      primary:
+        - day: 31
+          relationship: "translation_problem"
+          anchor: "Stop Translating: Start Thinking in English"
+        - day: 36
+          relationship: "italian_mistakes"
+          anchor: "Italian-to-English Sentences You Should Stop Translating"
+      same_week:
+        - day: 33
+          relationship: "natural_self_expression"
+          anchor: "How to Say I Like in Natural English"
+        - day: 34
+          relationship: "natural_expression"
+          anchor: "How to Say It Depends in English"
+      cross_cluster:
+        - day: 45
+          relationship: "natural_sentence_pattern"
+          anchor: "Stop Saying It Is All the Time"
+        - day: 47
+          relationship: "natural_expression"
+          anchor: "Better Ways to Say I Want"
+      pillar:
+        - day: 37
+          relationship: "weekly_pillar"
+          anchor: "Stop Translating — 50 Italian Sentences That Sound Different in Natural English"
+      next_step:
+        - day: 33
+          relationship: "next_day"
+          anchor: "How to Say I Like in Natural English"
+
+  - day: 33
+    title: "How to Say “Mi Piace” Without Always Saying “I Like”"
+    related_articles:
+      primary:
+        - day: 31
+          relationship: "thinking_in_chunks"
+          anchor: "Stop Translating: Start Thinking in English"
+        - day: 48
+          relationship: "opposite_expression"
+          anchor: "Better Ways to Say I Don't Like It"
+      same_week:
+        - day: 32
+          relationship: "natural_expression"
+          anchor: "How to Say Your Age in Natural English"
+        - day: 34
+          relationship: "natural_expression"
+          anchor: "How to Say It Depends in English"
+        - day: 35
+          relationship: "natural_expression"
+          anchor: "Natural Ways to Say I Don't Know"
+      cross_cluster:
+        - day: 46
+          relationship: "opinion_language"
+          anchor: "Better Ways to Say I Think"
+        - day: 62
+          relationship: "conversation_reaction"
+          anchor: "How to React Naturally in English"
+      pillar:
+        - day: 37
+          relationship: "weekly_pillar"
+          anchor: "Stop Translating — 50 Italian Sentences That Sound Different in Natural English"
+      next_step:
+        - day: 34
+          relationship: "next_day"
+          anchor: "How to Say It Depends in English"
+
+  - day: 34
+    title: "How to Say “Dipende” in Natural English"
+    related_articles:
+      primary:
+        - day: 35
+          relationship: "uncertainty"
+          anchor: "Natural Ways to Say I Don't Know"
+        - day: 41
+          relationship: "reasoning"
+          anchor: "Better Ways to Ask Why"
+      same_week:
+        - day: 31
+          relationship: "stop_translating"
+          anchor: "Stop Translating: Start Thinking in English"
+        - day: 33
+          relationship: "natural_expression"
+          anchor: "How to Say I Like in Natural English"
+        - day: 36
+          relationship: "italian_mistakes"
+          anchor: "Italian-to-English Sentences You Should Stop Translating"
+      cross_cluster:
+        - day: 46
+          relationship: "opinion_hedging"
+          anchor: "Better Ways to Say I Think"
+        - day: 61
+          relationship: "thinking_time"
+          anchor: "What to Say When You Don't Know What to Say"
+      pillar:
+        - day: 37
+          relationship: "weekly_pillar"
+          anchor: "Stop Translating — 50 Italian Sentences That Sound Different in Natural English"
+      next_step:
+        - day: 35
+          relationship: "next_day"
+          anchor: "Natural Ways to Say I Don't Know"
+
+  - day: 35
+    title: "How to Say “Non Lo So” Without Sounding Stiff"
+    related_articles:
+      primary:
+        - day: 34
+          relationship: "uncertainty"
+          anchor: "How to Say It Depends in Natural English"
+        - day: 61
+          relationship: "thinking_time"
+          anchor: "What to Say When You Don't Know What to Say"
+      same_week:
+        - day: 31
+          relationship: "natural_english"
+          anchor: "Stop Translating: Start Thinking in English"
+        - day: 33
+          relationship: "natural_expression"
+          anchor: "How to Say I Like in Natural English"
+        - day: 36
+          relationship: "italian_mistakes"
+          anchor: "Italian-to-English Sentences You Should Stop Translating"
+      cross_cluster:
+        - day: 40
+          relationship: "clarification"
+          anchor: "What Do You Mean?"
+        - day: 46
+          relationship: "hedging"
+          anchor: "Better Ways to Say I Think"
+        - day: 57
+          relationship: "spoken_listening"
+          anchor: "Why Native Speakers Don't Pronounce Every Word Clearly"
+      pillar:
+        - day: 37
+          relationship: "weekly_pillar"
+          anchor: "Stop Translating — 50 Italian Sentences That Sound Different in Natural English"
+      next_step:
+        - day: 36
+          relationship: "next_day"
+          anchor: "Italian-to-English Sentences You Should Stop Translating"
+
+  - day: 36
+    title: "Italian-to-English Sentences You Should Stop Translating"
+    related_articles:
+      primary:
+        - day: 31
+          relationship: "translation_strategy"
+          anchor: "Stop Translating: Start Thinking in English"
+        - day: 37
+          relationship: "weekly_recap"
+          anchor: "Stop Translating — Weekly Pillar"
+      same_week:
+        - day: 32
+          relationship: "italian_mistake"
+          anchor: "How to Say Your Age in Natural English"
+        - day: 34
+          relationship: "italian_mistake"
+          anchor: "How to Say It Depends in English"
+        - day: 35
+          relationship: "italian_mistake"
+          anchor: "Natural Ways to Say I Don't Know"
+      cross_cluster:
+        - day: 45
+          relationship: "sentence_upgrade"
+          anchor: "Stop Saying It Is All the Time"
+        - day: 50
+          relationship: "textbook_vs_real"
+          anchor: "25 Textbook English Upgrades"
+        - day: 49
+          relationship: "natural_register"
+          anchor: "How to Sound Less Formal in Everyday English"
+      pillar:
+        - day: 37
+          relationship: "weekly_pillar"
+          anchor: "Stop Translating — 50 Italian Sentences That Sound Different in Natural English"
+      next_step:
+        - day: 37
+          relationship: "weekly_pillar"
+          anchor: "Stop Translating — Weekly Pillar"
+
+  - day: 37
+    title: "Stop Translating — 50 Italian Sentences That Sound Different in Natural English"
+    related_articles:
+      primary:
+        - day: 31
+          relationship: "pillar_support"
+          anchor: "Stop Translating: Start Thinking in English"
+        - day: 36
+          relationship: "pillar_support"
+          anchor: "Italian-to-English Sentences You Should Stop Translating"
+      same_week:
+        - day: 32
+          relationship: "pillar_support"
+          anchor: "How to Say Your Age in Natural English"
+        - day: 33
+          relationship: "pillar_support"
+          anchor: "How to Say I Like in Natural English"
+        - day: 35
+          relationship: "pillar_support"
+          anchor: "Natural Ways to Say I Don't Know"
+      cross_cluster:
+        - day: 50
+          relationship: "textbook_vs_real"
+          anchor: "From Textbook English to Real English"
+        - day: 51
+          relationship: "natural_english"
+          anchor: "Sound More Natural in English"
+        - day: 65
+          relationship: "conversation_mastery"
+          anchor: "Natural English Conversations"
+      pillar:
+        - day: 44
+          relationship: "next_pillar"
+          anchor: "Natural Questions in English"
+      next_step:
+        - day: 38
+          relationship: "next_cluster"
+          anchor: "How Are You? — Natural Alternatives"
+
+
+  # ==========================================================
+  # WEEK 7 — NATURAL QUESTIONS
+  # ==========================================================
+
+  - day: 38
+    title: "How Are You? — Natural Alternatives to How Are You?"
+    related_articles:
+      primary:
+        - day: 39
+          relationship: "natural_question"
+          anchor: "What Are You Doing?"
+        - day: 43
+          relationship: "question_library"
+          anchor: "Questions Native Speakers Actually Use Every Day"
+      same_week:
+        - day: 40
+          relationship: "clarification"
+          anchor: "What Do You Mean?"
+        - day: 41
+          relationship: "asking_reasons"
+          anchor: "Better Ways to Ask Why"
+      cross_cluster:
+        - day: 5
+          relationship: "revisit"
+          anchor: "How's It Going?"
+        - day: 59
+          relationship: "conversation_opener"
+          anchor: "How to Start a Conversation Naturally"
+      pillar:
+        - day: 44
+          relationship: "weekly_pillar"
+          anchor: "Natural Questions in English"
+      next_step:
+        - day: 39
+          relationship: "next_day"
+          anchor: "What Are You Doing?"
+
+  - day: 39
+    title: "What Are You Doing? — Natural Ways to Ask"
+    related_articles:
+      primary:
+        - day: 38
+          relationship: "small_talk"
+          anchor: "Natural Alternatives to How Are You?"
+        - day: 59
+          relationship: "conversation_opener"
+          anchor: "How to Start a Conversation Naturally"
+      same_week:
+        - day: 40
+          relationship: "clarification"
+          anchor: "What Do You Mean?"
+        - day: 43
+          relationship: "question_library"
+          anchor: "Questions Native Speakers Actually Use Every Day"
+      cross_cluster:
+        - day: 6
+          relationship: "revisit"
+          anchor: "What Are You Up To?"
+        - day: 60
+          relationship: "conversation_follow_up"
+          anchor: "How to Keep a Conversation Going"
+      pillar:
+        - day: 44
+          relationship: "weekly_pillar"
+          anchor: "Natural Questions in English"
+      next_step:
+        - day: 40
+          relationship: "next_day"
+          anchor: "What Do You Mean?"
+
+  - day: 40
+    title: "What Do You Mean? — Asking for Clarification Naturally"
+    related_articles:
+      primary:
+        - day: 42
+          relationship: "clarification_question"
+          anchor: "How Come?"
+        - day: 29
+          relationship: "revisit"
+          anchor: "How to Ask Someone to Repeat in English"
+      same_week:
+        - day: 38
+          relationship: "natural_questions"
+          anchor: "Natural Alternatives to How Are You?"
+        - day: 41
+          relationship: "question_variation"
+          anchor: "Better Ways to Ask Why"
+        - day: 43
+          relationship: "question_library"
+          anchor: "Questions Native Speakers Actually Use Every Day"
+      cross_cluster:
+        - day: 61
+          relationship: "conversation_repair"
+          anchor: "What to Say When You Don't Know What to Say"
+        - day: 62
+          relationship: "conversation_reaction"
+          anchor: "How to React Naturally in English"
+      pillar:
+        - day: 44
+          relationship: "weekly_pillar"
+          anchor: "Natural Questions in English"
+      next_step:
+        - day: 41
+          relationship: "next_day"
+          anchor: "Better Ways to Ask Why"
+
+  - day: 41
+    title: "Why? — Better Ways to Ask for a Reason"
+    related_articles:
+      primary:
+        - day: 42
+          relationship: "natural_question"
+          anchor: "How Come?"
+        - day: 40
+          relationship: "question_softening"
+          anchor: "What Do You Mean?"
+      same_week:
+        - day: 38
+          relationship: "small_talk"
+          anchor: "Natural Alternatives to How Are You?"
+        - day: 43
+          relationship: "question_library"
+          anchor: "Questions Native Speakers Actually Use Every Day"
+      cross_cluster:
+        - day: 34
+          relationship: "reasoning"
+          anchor: "How to Say It Depends"
+        - day: 46
+          relationship: "opinion_language"
+          anchor: "Better Ways to Say I Think"
+      pillar:
+        - day: 44
+          relationship: "weekly_pillar"
+          anchor: "Natural Questions in English"
+      next_step:
+        - day: 42
+          relationship: "next_day"
+          anchor: "How Come?"
+
+  - day: 42
+    title: "How Come? — The Natural Question Italians Often Don't Learn"
+    related_articles:
+      primary:
+        - day: 41
+          relationship: "why_alternative"
+          anchor: "Better Ways to Ask Why"
+        - day: 43
+          relationship: "question_library"
+          anchor: "Questions Native Speakers Actually Use Every Day"
+      same_week:
+        - day: 40
+          relationship: "clarification"
+          anchor: "What Do You Mean?"
+        - day: 38
+          relationship: "conversation_question"
+          anchor: "Natural Alternatives to How Are You?"
+      cross_cluster:
+        - day: 39
+          relationship: "natural_question"
+          anchor: "What Are You Doing?"
+        - day: 52
+          relationship: "spoken_english"
+          anchor: "Gonna, Wanna, Gotta"
+      pillar:
+        - day: 44
+          relationship: "weekly_pillar"
+          anchor: "Natural Questions in English"
+      next_step:
+        - day: 43
+          relationship: "next_day"
+          anchor: "Questions Native Speakers Actually Use Every Day"
+
+  - day: 43
+    title: "Questions Native Speakers Actually Use Every Day"
+    related_articles:
+      primary:
+        - day: 38
+          relationship: "question_library"
+          anchor: "Natural Alternatives to How Are You?"
+        - day: 39
+          relationship: "question_library"
+          anchor: "What Are You Doing?"
+      same_week:
+        - day: 40
+          relationship: "clarification"
+          anchor: "What Do You Mean?"
+        - day: 41
+          relationship: "asking_reasons"
+          anchor: "Better Ways to Ask Why"
+        - day: 42
+          relationship: "natural_question"
+          anchor: "How Come?"
+      cross_cluster:
+        - day: 59
+          relationship: "conversation_starters"
+          anchor: "How to Start a Conversation Naturally"
+        - day: 60
+          relationship: "follow_up_questions"
+          anchor: "How to Keep a Conversation Going"
+        - day: 62
+          relationship: "reaction_language"
+          anchor: "How to React Naturally in English"
+      pillar:
+        - day: 44
+          relationship: "weekly_pillar"
+          anchor: "Natural Questions in English"
+      next_step:
+        - day: 44
+          relationship: "weekly_pillar"
+          anchor: "Natural Questions in English"
+
+  - day: 44
+    title: "Natural Questions in English — Weekly Pillar"
+    related_articles:
+      primary:
+        - day: 43
+          relationship: "pillar_support"
+          anchor: "Questions Native Speakers Actually Use Every Day"
+        - day: 40
+          relationship: "pillar_support"
+          anchor: "What Do You Mean?"
+      same_week:
+        - day: 38
+          relationship: "pillar_support"
+          anchor: "Natural Alternatives to How Are You?"
+        - day: 39
+          relationship: "pillar_support"
+          anchor: "What Are You Doing?"
+        - day: 42
+          relationship: "pillar_support"
+          anchor: "How Come?"
+      cross_cluster:
+        - day: 31
+          relationship: "natural_english"
+          anchor: "Stop Translating: Start Thinking in English"
+        - day: 60
+          relationship: "conversation_management"
+          anchor: "How to Keep a Conversation Going"
+        - day: 65
+          relationship: "conversation_mastery"
+          anchor: "Natural English Conversations"
+      pillar:
+        - day: 51
+          relationship: "next_pillar"
+          anchor: "Sound More Natural in English"
+      next_step:
+        - day: 45
+          relationship: "next_cluster"
+          anchor: "Stop Saying It Is All the Time"
+
+
+  # ==========================================================
+  # WEEK 8 — SOUND MORE NATURAL
+  # ==========================================================
+
+  - day: 45
+    title: "Stop Saying It Is All the Time"
+    related_articles:
+      primary:
+        - day: 50
+          relationship: "sentence_upgrade"
+          anchor: "From Textbook English to Real English"
+        - day: 49
+          relationship: "natural_register"
+          anchor: "How to Sound Less Formal"
+      same_week:
+        - day: 46
+          relationship: "opinion_upgrade"
+          anchor: "Better Ways to Say I Think"
+        - day: 47
+          relationship: "want_upgrade"
+          anchor: "Better Ways to Say I Want"
+        - day: 48
+          relationship: "preference_upgrade"
+          anchor: "Better Ways to Say I Don't Like It"
+      cross_cluster:
+        - day: 31
+          relationship: "natural_sentence_patterns"
+          anchor: "Stop Translating: Start Thinking in English"
+        - day: 57
+          relationship: "spoken_english"
+          anchor: "Why Native Speakers Don't Pronounce Every Word Clearly"
+      pillar:
+        - day: 51
+          relationship: "weekly_pillar"
+          anchor: "Sound More Natural in English"
+      next_step:
+        - day: 46
+          relationship: "next_day"
+          anchor: "Better Ways to Say I Think"
+
+  - day: 46
+    title: "Better Ways to Say I Think"
+    related_articles:
+      primary:
+        - day: 48
+          relationship: "opinion_preference"
+          anchor: "Better Ways to Say I Don't Like It"
+        - day: 50
+          relationship: "textbook_upgrade"
+          anchor: "From Textbook English to Real English"
+      same_week:
+        - day: 45
+          relationship: "sentence_variety"
+          anchor: "Stop Saying It Is All the Time"
+        - day: 47
+          relationship: "expression_upgrade"
+          anchor: "Better Ways to Say I Want"
+        - day: 49
+          relationship: "register"
+          anchor: "How to Sound Less Formal"
+      cross_cluster:
+        - day: 34
+          relationship: "hedging"
+          anchor: "How to Say It Depends"
+        - day: 41
+          relationship: "opinion_question"
+          anchor: "Better Ways to Ask
