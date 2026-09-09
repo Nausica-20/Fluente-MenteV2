@@ -1,0 +1,636 @@
+version: "1.0"
+project: "fluente-mente"
+month: 1
+file: "related_articles.yml"
+
+rules:
+  primary_max: 2
+  same_week_max: 3
+  cross_cluster_max: 3
+  pillar_max: 1
+  next_step_max: 1
+  no_orphans: true
+  reciprocal_links: true
+  prioritize_language_reuse: true
+
+articles:
+
+  - day: 1
+    title: "Introducing Yourself Naturally"
+    related_articles:
+      primary:
+        - day: 2
+          relationship: "same_topic"
+          anchor: "Natural Ways to Ask Someone's Name"
+        - day: 3
+          relationship: "same_topic"
+          anchor: "How to Talk About Where You're From"
+      same_week:
+        - day: 4
+          relationship: "same_cluster"
+          anchor: "How to Talk About Your Job"
+        - day: 5
+          relationship: "conversation_continuation"
+          anchor: "What Native Speakers Mean by How's It Going?"
+      cross_cluster:
+        - day: 8
+          relationship: "natural_question_reuse"
+          anchor: "How to Order a Coffee in Natural English"
+      pillar:
+        - day: 7
+          relationship: "weekly_pillar"
+          anchor: "Meeting Someone for the First Time"
+      next_step:
+        - day: 2
+          relationship: "next_day"
+          anchor: "What's Your Name?"
+
+  - day: 2
+    title: "What's Your Name? — Natural Ways to Ask"
+    related_articles:
+      primary:
+        - day: 1
+          relationship: "same_topic"
+          anchor: "Introducing Yourself Naturally"
+        - day: 3
+          relationship: "conversation_continuation"
+          anchor: "Where Are You From?"
+      same_week:
+        - day: 5
+          relationship: "small_talk"
+          anchor: "How's It Going?"
+        - day: 6
+          relationship: "conversation_continuation"
+          anchor: "What Are You Up To?"
+      cross_cluster:
+        - day: 22
+          relationship: "polite_question_pattern"
+          anchor: "How to Ask for Directions in English"
+      pillar:
+        - day: 7
+          relationship: "weekly_pillar"
+          anchor: "Meeting Someone for the First Time"
+      next_step:
+        - day: 3
+          relationship: "next_day"
+          anchor: "Where Are You From?"
+
+  - day: 3
+    title: "Where Are You From? — More Than Just “I'm From…”"
+    related_articles:
+      primary:
+        - day: 1
+          relationship: "introduction"
+          anchor: "Introducing Yourself Naturally"
+        - day: 4
+          relationship: "conversation_continuation"
+          anchor: "What Do You Do?"
+      same_week:
+        - day: 2
+          relationship: "meeting_people"
+          anchor: "What's Your Name?"
+        - day: 5
+          relationship: "small_talk"
+          anchor: "How's It Going?"
+      cross_cluster:
+        - day: 24
+          relationship: "destination_language"
+          anchor: "How to Take a Taxi in English"
+      pillar:
+        - day: 7
+          relationship: "weekly_pillar"
+          anchor: "Meeting Someone for the First Time"
+      next_step:
+        - day: 4
+          relationship: "next_day"
+          anchor: "What Do You Do?"
+
+  - day: 4
+    title: "What Do You Do? — Talking About Your Job"
+    related_articles:
+      primary:
+        - day: 1
+          relationship: "self_introduction"
+          anchor: "Introducing Yourself Naturally"
+        - day: 5
+          relationship: "small_talk"
+          anchor: "How's It Going?"
+      same_week:
+        - day: 3
+          relationship: "conversation_continuation"
+          anchor: "Where Are You From?"
+        - day: 6
+          relationship: "conversation_continuation"
+          anchor: "What Are You Up To?"
+      cross_cluster:
+        - day: 20
+          relationship: "asking_for_help"
+          anchor: "How to Ask for Help in a Store"
+      pillar:
+        - day: 7
+          relationship: "weekly_pillar"
+          anchor: "Meeting Someone for the First Time"
+      next_step:
+        - day: 5
+          relationship: "next_day"
+          anchor: "How's It Going?"
+
+  - day: 5
+    title: "How's It Going? — What Native Speakers Really Mean"
+    related_articles:
+      primary:
+        - day: 2
+          relationship: "small_talk"
+          anchor: "What's Your Name?"
+        - day: 6
+          relationship: "conversation_continuation"
+          anchor: "What Are You Up To?"
+      same_week:
+        - day: 4
+          relationship: "small_talk"
+          anchor: "What Do You Do?"
+        - day: 3
+          relationship: "conversation_continuation"
+          anchor: "Where Are You From?"
+      cross_cluster:
+        - day: 8
+          relationship: "natural_short_questions"
+          anchor: "How to Order a Coffee in Natural English"
+        - day: 29
+          relationship: "spoken_english"
+          anchor: "How to Ask Someone to Repeat in English"
+      pillar:
+        - day: 7
+          relationship: "weekly_pillar"
+          anchor: "Meeting Someone for the First Time"
+      next_step:
+        - day: 6
+          relationship: "next_day"
+          anchor: "What Are You Up To?"
+
+  - day: 6
+    title: "What Are You Up To? — A Natural Conversation Starter"
+    related_articles:
+      primary:
+        - day: 5
+          relationship: "conversation_starter"
+          anchor: "How's It Going?"
+        - day: 4
+          relationship: "small_talk"
+          anchor: "What Do You Do?"
+      same_week:
+        - day: 2
+          relationship: "meeting_people"
+          anchor: "What's Your Name?"
+        - day: 3
+          relationship: "small_talk"
+          anchor: "Where Are You From?"
+      cross_cluster:
+        - day: 29
+          relationship: "conversation_management"
+          anchor: "How to Ask Someone to Repeat in English"
+      pillar:
+        - day: 7
+          relationship: "weekly_pillar"
+          anchor: "Meeting Someone for the First Time"
+      next_step:
+        - day: 7
+          relationship: "weekly_pillar"
+          anchor: "Meeting Someone for the First Time"
+
+  - day: 7
+    title: "Meeting Someone for the First Time"
+    related_articles:
+      primary:
+        - day: 1
+          relationship: "pillar_support"
+          anchor: "Introducing Yourself Naturally"
+        - day: 5
+          relationship: "pillar_support"
+          anchor: "How's It Going?"
+      same_week:
+        - day: 2
+          relationship: "pillar_support"
+          anchor: "What's Your Name?"
+        - day: 3
+          relationship: "pillar_support"
+          anchor: "Where Are You From?"
+        - day: 4
+          relationship: "pillar_support"
+          anchor: "What Do You Do?"
+      cross_cluster:
+        - day: 29
+          relationship: "survival_conversation"
+          anchor: "How to Ask Someone to Repeat in English"
+      pillar:
+        - day: 14
+          relationship: "next_pillar"
+          anchor: "Eating Out in English"
+      next_step:
+        - day: 8
+          relationship: "next_cluster"
+          anchor: "How to Order a Coffee in Natural English"
+
+  - day: 8
+    title: "How to Order a Coffee in Natural English"
+    related_articles:
+      primary:
+        - day: 9
+          relationship: "same_context"
+          anchor: "How to Order Breakfast in English"
+        - day: 10
+          relationship: "same_context"
+          anchor: "How to Order at a Restaurant in English"
+      same_week:
+        - day: 11
+          relationship: "menu_vocabulary"
+          anchor: "How to Read an English Menu"
+        - day: 12
+          relationship: "payment"
+          anchor: "How to Ask for the Bill in English"
+      cross_cluster:
+        - day: 15
+          relationship: "question_reuse"
+          anchor: "How to Ask for the Price in English"
+        - day: 18
+          relationship: "payment_language"
+          anchor: "How to Pay in English"
+      pillar:
+        - day: 14
+          relationship: "weekly_pillar"
+          anchor: "Eating Out in English"
+      next_step:
+        - day: 9
+          relationship: "next_day"
+          anchor: "How to Order Breakfast in English"
+
+  - day: 9
+    title: "How to Order Breakfast in English"
+    related_articles:
+      primary:
+        - day: 8
+          relationship: "same_context"
+          anchor: "How to Order a Coffee in Natural English"
+        - day: 10
+          relationship: "same_context"
+          anchor: "How to Order at a Restaurant in English"
+      same_week:
+        - day: 11
+          relationship: "menu_vocabulary"
+          anchor: "How to Read an English Menu"
+        - day: 13
+          relationship: "special_requests"
+          anchor: "How to Make Special Requests at a Restaurant"
+      cross_cluster:
+        - day: 16
+          relationship: "choice_language"
+          anchor: "How to Ask for a Different Size in English"
+      pillar:
+        - day: 14
+          relationship: "weekly_pillar"
+          anchor: "Eating Out in English"
+      next_step:
+        - day: 10
+          relationship: "next_day"
+          anchor: "How to Order at a Restaurant in English"
+
+  - day: 10
+    title: "How to Order at a Restaurant in English"
+    related_articles:
+      primary:
+        - day: 8
+          relationship: "ordering_language"
+          anchor: "How to Order a Coffee in Natural English"
+        - day: 11
+          relationship: "menu_language"
+          anchor: "How to Read an English Menu"
+      same_week:
+        - day: 12
+          relationship: "restaurant_sequence"
+          anchor: "How to Ask for the Bill in English"
+        - day: 13
+          relationship: "restaurant_sequence"
+          anchor: "How to Make Special Requests at a Restaurant"
+      cross_cluster:
+        - day: 20
+          relationship: "polite_request"
+          anchor: "How to Ask for Help in a Store"
+        - day: 29
+          relationship: "clarification"
+          anchor: "How to Ask Someone to Repeat in English"
+      pillar:
+        - day: 14
+          relationship: "weekly_pillar"
+          anchor: "Eating Out in English"
+      next_step:
+        - day: 11
+          relationship: "next_day"
+          anchor: "How to Read an English Menu"
+
+  - day: 11
+    title: "How to Read an English Menu"
+    related_articles:
+      primary:
+        - day: 10
+          relationship: "menu_context"
+          anchor: "How to Order at a Restaurant in English"
+        - day: 13
+          relationship: "food_questions"
+          anchor: "How to Make Special Requests at a Restaurant"
+      same_week:
+        - day: 8
+          relationship: "food_context"
+          anchor: "How to Order a Coffee in Natural English"
+        - day: 12
+          relationship: "restaurant_sequence"
+          anchor: "How to Ask for the Bill in English"
+      cross_cluster:
+        - day: 16
+          relationship: "vocabulary_for_choices"
+          anchor: "How to Ask for a Different Size in English"
+        - day: 23
+          relationship: "understanding_vocabulary"
+          anchor: "How to Understand Directions in English"
+      pillar:
+        - day: 14
+          relationship: "weekly_pillar"
+          anchor: "Eating Out in English"
+      next_step:
+        - day: 12
+          relationship: "next_day"
+          anchor: "How to Ask for the Bill in English"
+
+  - day: 12
+    title: "How to Ask for the Bill in English"
+    related_articles:
+      primary:
+        - day: 10
+          relationship: "restaurant_sequence"
+          anchor: "How to Order at a Restaurant in English"
+        - day: 18
+          relationship: "payment_language"
+          anchor: "How to Pay in English"
+      same_week:
+        - day: 13
+          relationship: "restaurant_sequence"
+          anchor: "How to Make Special Requests at a Restaurant"
+        - day: 8
+          relationship: "restaurant_sequence"
+          anchor: "How to Order a Coffee in Natural English"
+      cross_cluster:
+        - day: 18
+          relationship: "payment_reuse"
+          anchor: "How to Pay in English"
+      pillar:
+        - day: 14
+          relationship: "weekly_pillar"
+          anchor: "Eating Out in English"
+      next_step:
+        - day: 13
+          relationship: "next_day"
+          anchor: "How to Make Special Requests at a Restaurant"
+
+  - day: 13
+    title: "How to Make Special Requests at a Restaurant in English"
+    related_articles:
+      primary:
+        - day: 10
+          relationship: "restaurant_requests"
+          anchor: "How to Order at a Restaurant in English"
+        - day: 11
+          relationship: "ingredient_questions"
+          anchor: "How to Read an English Menu"
+      same_week:
+        - day: 8
+          relationship: "polite_requests"
+          anchor: "How to Order a Coffee in Natural English"
+        - day: 12
+          relationship: "restaurant_sequence"
+          anchor: "How to Ask for the Bill in English"
+      cross_cluster:
+        - day: 16
+          relationship: "alternative_request"
+          anchor: "How to Ask for a Different Size in English"
+        - day: 20
+          relationship: "polite_request"
+          anchor: "How to Ask for Help in a Store"
+      pillar:
+        - day: 14
+          relationship: "weekly_pillar"
+          anchor: "Eating Out in English"
+      next_step:
+        - day: 14
+          relationship: "weekly_pillar"
+          anchor: "Eating Out in English"
+
+  - day: 14
+    title: "Eating Out in English — Weekly Pillar"
+    related_articles:
+      primary:
+        - day: 10
+          relationship: "pillar_support"
+          anchor: "How to Order at a Restaurant in English"
+        - day: 13
+          relationship: "pillar_support"
+          anchor: "How to Make Special Requests at a Restaurant"
+      same_week:
+        - day: 8
+          relationship: "pillar_support"
+          anchor: "How to Order a Coffee in Natural English"
+        - day: 9
+          relationship: "pillar_support"
+          anchor: "How to Order Breakfast in English"
+        - day: 11
+          relationship: "pillar_support"
+          anchor: "How to Read an English Menu"
+      cross_cluster:
+        - day: 18
+          relationship: "payment_language"
+          anchor: "How to Pay in English"
+        - day: 20
+          relationship: "asking_for_help"
+          anchor: "How to Ask for Help in a Store"
+      pillar:
+        - day: 21
+          relationship: "next_pillar"
+          anchor: "Shopping in English: The Complete Guide"
+      next_step:
+        - day: 15
+          relationship: "next_cluster"
+          anchor: "How to Ask for the Price in English"
+
+  - day: 15
+    title: "How to Ask for the Price in English"
+    related_articles:
+      primary:
+        - day: 16
+          relationship: "shopping_sequence"
+          anchor: "How to Ask for a Different Size in English"
+        - day: 18
+          relationship: "payment_sequence"
+          anchor: "How to Pay in English"
+      same_week:
+        - day: 17
+          relationship: "clothes_shopping"
+          anchor: "How to Try Something On in English"
+        - day: 20
+          relationship: "shopping_help"
+          anchor: "How to Ask for Help in a Store"
+      cross_cluster:
+        - day: 8
+          relationship: "how_much_reuse"
+          anchor: "How to Order a Coffee in Natural English"
+        - day: 12
+          relationship: "payment_context"
+          anchor: "How to Ask for the Bill in English"
+      pillar:
+        - day: 21
+          relationship: "weekly_pillar"
+          anchor: "Shopping in English: The Complete Guide"
+      next_step:
+        - day: 16
+          relationship: "next_day"
+          anchor: "How to Ask for a Different Size in English"
+
+  - day: 16
+    title: "How to Ask for a Different Size in English"
+    related_articles:
+      primary:
+        - day: 17
+          relationship: "clothes_shopping"
+          anchor: "How to Try Something On in English"
+        - day: 20
+          relationship: "asking_for_help"
+          anchor: "How to Ask for Help in a Store"
+      same_week:
+        - day: 15
+          relationship: "shopping_sequence"
+          anchor: "How to Ask for the Price in English"
+        - day: 19
+          relationship: "shopping_sequence"
+          anchor: "How to Return Something in English"
+      cross_cluster:
+        - day: 13
+          relationship: "alternative_request"
+          anchor: "How to Make Special Requests at a Restaurant"
+        - day: 9
+          relationship: "choice_language"
+          anchor: "How to Order Breakfast in English"
+      pillar:
+        - day: 21
+          relationship: "weekly_pillar"
+          anchor: "Shopping in English: The Complete Guide"
+      next_step:
+        - day: 17
+          relationship: "next_day"
+          anchor: "How to Try Something On in English"
+
+  - day: 17
+    title: "How to Try Something On in English"
+    related_articles:
+      primary:
+        - day: 16
+          relationship: "size_language"
+          anchor: "How to Ask for a Different Size in English"
+        - day: 19
+          relationship: "shopping_sequence"
+          anchor: "How to Return Something in English"
+      same_week:
+        - day: 15
+          relationship: "shopping_sequence"
+          anchor: "How to Ask for the Price in English"
+        - day: 20
+          relationship: "shopping_help"
+          anchor: "How to Ask for Help in a Store"
+      cross_cluster:
+        - day: 13
+          relationship: "can_i_request"
+          anchor: "How to Make Special Requests at a Restaurant"
+      pillar:
+        - day: 21
+          relationship: "weekly_pillar"
+          anchor: "Shopping in English: The Complete Guide"
+      next_step:
+        - day: 18
+          relationship: "next_day"
+          anchor: "How to Pay in English"
+
+  - day: 18
+    title: "How to Pay in English"
+    related_articles:
+      primary:
+        - day: 15
+          relationship: "shopping_sequence"
+          anchor: "How to Ask for the Price in English"
+        - day: 19
+          relationship: "shopping_sequence"
+          anchor: "How to Return Something in English"
+      same_week:
+        - day: 20
+          relationship: "shopping_context"
+          anchor: "How to Ask for Help in a Store"
+        - day: 17
+          relationship: "shopping_sequence"
+          anchor: "How to Try Something On in English"
+      cross_cluster:
+        - day: 12
+          relationship: "payment_reuse"
+          anchor: "How to Ask for the Bill in English"
+        - day: 24
+          relationship: "payment_reuse"
+          anchor: "How to Take a Taxi in English"
+      pillar:
+        - day: 21
+          relationship: "weekly_pillar"
+          anchor: "Shopping in English: The Complete Guide"
+      next_step:
+        - day: 19
+          relationship: "next_day"
+          anchor: "How to Return Something in English"
+
+  - day: 19
+    title: "How to Return Something in English"
+    related_articles:
+      primary:
+        - day: 17
+          relationship: "shopping_sequence"
+          anchor: "How to Try Something On in English"
+        - day: 18
+          relationship: "refund_and_payment"
+          anchor: "How to Pay in English"
+      same_week:
+        - day: 16
+          relationship: "size_problem"
+          anchor: "How to Ask for a Different Size in English"
+        - day: 20
+          relationship: "store_help"
+          anchor: "How to Ask for Help in a Store"
+      cross_cluster:
+        - day: 13
+          relationship: "problem_resolution"
+          anchor: "How to Make Special Requests at a Restaurant"
+        - day: 29
+          relationship: "clarification"
+          anchor: "How to Ask Someone to Repeat in English"
+      pillar:
+        - day: 21
+          relationship: "weekly_pillar"
+          anchor: "Shopping in English: The Complete Guide"
+      next_step:
+        - day: 20
+          relationship: "next_day"
+          anchor: "How to Ask for Help in a Store"
+
+  - day: 20
+    title: "How to Ask for Help in a Store"
+    related_articles:
+      primary:
+        - day: 15
+          relationship: "shopping_help"
+          anchor: "How to Ask for the Price in English"
+        - day: 16
+          relationship: "shopping_help"
+          anchor: "How to Ask for a Different Size in English"
+      same_week:
+        - day: 17
+      
